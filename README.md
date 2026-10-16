@@ -24,8 +24,3 @@ mvn.cmd test "-Dgauge.specs.dir=specs/ui-testing/finalProjectBakcellShop.spec"
 mvn.cmd test "-Dgauge.specs.dir=specs/api-testing/finalProjectBeneficiaries.spec"
 ```
 
-## Acknowledgements
-
-This project is built on top of a base Gauge UI + API test framework
-provided by the instructor, Anar Abbas. The final project API and UI
-automation scenarios were developed by Fatima Tahirova.
