@@ -1,0 +1,5 @@
+{
+  "accountId": "${testAccountId}",
+  "initialAmount": 50,
+  "label": "Account check"
+}

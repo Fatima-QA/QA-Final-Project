@@ -1,0 +1,5 @@
+{
+  "fullName": "Limit Test",
+  "iban": "AZ12TEST000000000000000000${limitSuffix}",
+  "currency": "AZN"
+}

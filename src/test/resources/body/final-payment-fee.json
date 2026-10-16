@@ -1,0 +1,6 @@
+{
+  "cardId": "${cardId}",
+  "billerId": "${testBillerId}",
+  "subscriberNo": "${testSubscriberNo}",
+  "amount": ${paymentAmount}
+}

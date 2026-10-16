@@ -1,0 +1,5 @@
+{
+  "fullName": "${bvaName}",
+  "iban": "AZ12TEST00000000000000000001",
+  "currency": "AZN"
+}

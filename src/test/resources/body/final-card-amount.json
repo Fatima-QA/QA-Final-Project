@@ -1,0 +1,5 @@
+{
+  "accountId": "acc_001",
+  "initialAmount": ${cardAmount},
+"label": "Amount BVA"
+}

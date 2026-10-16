@@ -1,0 +1,122 @@
+{
+  "Bakcell Advertisement Close": {
+    "locatorType": "CSS",
+    "locatorValue": "[class*='advertise_wrap'] [data-testid='modal-close']"
+  },
+  "Bakcell GO 11 Details Link": {
+    "locatorType": "CSS",
+    "locatorValue": "a[aria-label='Go to go-11-99']"
+  },
+  "Bakcell Tariff Detail Title": {
+    "locatorType": "CSS",
+    "locatorValue": "h1"
+  },
+  "Bakcell Tariff Activate Button": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[normalize-space()='Aktivləşdir']"
+  },
+  "Bakcell Additional Information": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h3[normalize-space()='Əlavə məlumat:']"
+  },
+  "Bakcell GO 17 Details Link": {
+    "locatorType": "CSS",
+    "locatorValue": "a[aria-label='Go to go-17-99']"
+  },
+  "Bakcell GO 29 Details Link": {
+    "locatorType": "CSS",
+    "locatorValue": "a[aria-label='Go to go-29-99']"
+  },
+  "Bakcell Open Search": {
+    "locatorType": "CSS",
+    "locatorValue": "button[aria-label='Open search']"
+  },
+  "Bakcell Search Input": {
+    "locatorType": "CSS",
+    "locatorValue": "[class*='SearchField-module'][itemtype='https://schema.org/SearchAction'] input[placeholder='Axtar']"
+  },
+  "Bakcell Search Esim Result": {
+    "locatorType": "XPATH",
+    "locatorValue": "//*[@itemtype='https://schema.org/SearchAction']//*[normalize-space()='eSIM nədir?']"
+  },
+  "Bakcell Search No Results": {
+    "locatorType": "XPATH",
+    "locatorValue": "//*[@itemtype='https://schema.org/SearchAction']//p[normalize-space()='Məlumat tapılmadı']"
+  },
+  "Bakcell Current Language AZ": {
+    "locatorType": "XPATH",
+    "locatorValue": "//span[normalize-space()='AZ' and not(ancestor::div[contains(@class,'mobileButtons')])]"
+  },
+  "Bakcell English Language": {
+    "locatorType": "XPATH",
+    "locatorValue": "//a[normalize-space()='EN' and not(ancestor::div[contains(@class,'mobileButtons')])]"
+  },
+  "Bakcell Russian Language": {
+    "locatorType": "XPATH",
+    "locatorValue": "//a[normalize-space()='RU' and not(ancestor::div[contains(@class,'mobileButtons')])]"
+  },
+  "Bakcell English Calls Heading": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h3[normalize-space()='Calls']"
+  },
+  "Bakcell Russian Calls Heading": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h3[normalize-space()='Звонки']"
+  },
+  "Bakcell Weekly Category": {
+    "locatorType": "CSS",
+    "locatorValue": "a[href='/weekly-packages']"
+  },
+  "Bakcell Weekly Heading": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h2[normalize-space()='Həftəlik internet paketləri']"
+  },
+  "Bakcell Weekly Package Volume": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h2[normalize-space()='2 GB']"
+  },
+  "Bakcell Weekly Activation Code": {
+    "locatorType": "CSS",
+    "locatorValue": "a[href='tel:*444*02%23']"
+  },
+  "Bakcell Wifi20 Details": {
+    "locatorType": "CSS",
+    "locatorValue": "a[aria-label='Go to bakcell-wi-fi-20']"
+  },
+  "Bakcell Wifi20 Breadcrumb": {
+    "locatorType": "XPATH",
+    "locatorValue": "//a[@href='/bakcell-wi-fi-20' and normalize-space()='Bakcell Wi-Fi 20']"
+  },
+  "Bakcell Roaming Country Input": {
+    "locatorType": "CSS",
+    "locatorValue": "input[placeholder='Ölkənin adını daxil et']"
+  },
+  "Bakcell Roaming Turkey Suggestion": {
+    "locatorType": "XPATH",
+    "locatorValue": "//ul//*[normalize-space()='Türkiyə']"
+  },
+  "Bakcell Roaming Turkey Heading": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h2[normalize-space()='Türkiyə']"
+  },
+  "Bakcell Roaming Georgia Choice": {
+    "locatorType": "XPATH",
+    "locatorValue": "//*[normalize-space()='Gürcüstan' and not(*)]"
+  },
+  "Bakcell Roaming Georgia Heading": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h2[normalize-space()='Gürcüstan']"
+  },
+  "Bakcell Login Phone": {
+    "locatorType": "CSS",
+    "locatorValue": "[data-testid='cabinet-login-input']"
+  },
+  "Bakcell Login Continue": {
+    "locatorType": "CSS",
+    "locatorValue": "button[data-testid='login-continue-button']"
+  },
+  "Bakcell Login Required Error": {
+    "locatorType": "XPATH",
+    "locatorValue": "//*[normalize-space()='Tələb olunur' and not(*)]"
+  }
+}

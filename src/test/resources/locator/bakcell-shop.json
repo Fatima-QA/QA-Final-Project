@@ -1,0 +1,194 @@
+{
+  "Shop Search Input": {
+    "locatorType": "CSS",
+    "locatorValue": "header .offers input[placeholder='Məhsulları axtar...']"
+  },
+  "Shop TCL Search Result": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[normalize-space()='Televizor TCL 55P755 4K UHD Google TV']"
+  },
+  "Shop Product Detail Title": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h3[normalize-space()='Televizor TCL 55P755 4K UHD Google TV']"
+  },
+  "Shop Product Code": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[span[normalize-space()='207-0003']]"
+  },
+  "Shop No Results": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h2[normalize-space()='Nəticə tapılmadı']"
+  },
+  "Shop Product Cards": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[ancestor::*[@role='button']]"
+  },
+  "Shop Memory 256 Checkbox": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='256 GB']//input[@type='checkbox']"
+  },
+  "Shop Memory 256 Label": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='256 GB']"
+  },
+  "Shop Clear Filters": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[normalize-space()='Hamısını Sil']"
+  },
+  "Shop Samsung 128 Product": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[normalize-space()='Smartfon Samsung Galaxy A17 6GB/128GB Black']"
+  },
+  "Shop Samsung 256 Product": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[normalize-space()='Smartfon Samsung Galaxy A17 8GB/256GB Black']"
+  },
+  "Shop Products Outside 256": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[ancestor::*[@role='button'] and not(contains(translate(normalize-space(.),' ',''),'256GB'))]"
+  },
+  "Shop Apple Brand Checkbox": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='Apple']//input[@type='checkbox']"
+  },
+  "Shop TV Category": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='Televizorlar']"
+  },
+  "Shop TV Category Heading": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[normalize-space()='Televizorlar']"
+  },
+  "Shop TCL Brand Label": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='TCL']"
+  },
+  "Shop TCL Brand Checkbox": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='TCL']//input[@type='checkbox']"
+  },
+  "Shop Non TV Products": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[ancestor::*[@role='button'] and not(starts-with(normalize-space(.),'Televizor '))]"
+  },
+  "Shop Non TCL Products": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[ancestor::*[@role='button'] and not(contains(normalize-space(.),'TCL'))]"
+  },
+  "Shop Detail Add To Cart": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//button[normalize-space()='Səbətə at'])[1]"
+  },
+  "Shop Open Cart": {
+    "locatorType": "XPATH",
+    "locatorValue": "//header//div[contains(@class,'xl:flex')]//button[img[@alt='cart']]"
+  },
+  "Shop View Cart": {
+    "locatorType": "XPATH",
+    "locatorValue": "//header//div[contains(@class,'xl:flex')]//a[@href='/az/view-cart']"
+  },
+  "Shop Cart Quantity": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[img[@alt='plus']]/preceding-sibling::span"
+  },
+  "Shop Cart Plus": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[img[@alt='plus']]"
+  },
+  "Shop Cart Minus": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[img[@alt='minus']]"
+  },
+  "Shop Cart Total": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//label[normalize-space()='Cəmi']/following-sibling::h4)[1]"
+  },
+  "Shop Cart Has Items": {
+    "locatorType": "XPATH",
+    "locatorValue": "//header//div[contains(@class,'xl:flex')]//button[img[@alt='cart']]/span[contains(@class,'bg-primary')]"
+  },
+  "Shop Cart Remove": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[img[@alt='cross' and contains(@src,'/trash.')]]"
+  },
+  "Shop Cart Delete Confirmation": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h3[normalize-space()='Silmək istədiyinə əminsən?']"
+  },
+  "Shop Cart Cancel Delete": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[normalize-space()='Ləğv et']"
+  },
+  "Shop Cart Confirm Delete": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[normalize-space()='Təsdiqlə']"
+  },
+  "Shop Empty Cart": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h2[normalize-space()='Səbət boşdur']"
+  },
+  "Shop Quick Buy": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//button[normalize-space()='Bir kliklə al'])[1]"
+  },
+  "Shop Quick Buy Heading": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h3[normalize-space()='Bir kliklə al']"
+  },
+  "Shop Quick Buy Phone": {
+    "locatorType": "CSS",
+    "locatorValue": "input[placeholder='Mobil nömrə']"
+  },
+  "Shop Quick Buy Continue": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[normalize-space()='Davam et']"
+  },
+  "Shop Thumbnail One": {
+    "locatorType": "CSS",
+    "locatorValue": "img[alt='Thumbnail 1']"
+  },
+  "Shop Thumbnail Two": {
+    "locatorType": "CSS",
+    "locatorValue": "img[alt='Thumbnail 2']"
+  },
+  "Shop Selected Image": {
+    "locatorType": "CSS",
+    "locatorValue": "img[alt='Selected']"
+  },
+  "Shop TCL Card Price": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[normalize-space()='Televizor TCL 55P755 4K UHD Google TV']/ancestor::*[@role='button'][1]//p[contains(.,'₼')]"
+  },
+  "Shop Detail Price": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//h3[contains(.,'₼')])[1]"
+  },
+  "Shop Apple Brand Label": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='Apple']"
+  },
+  "Shop Non Apple Products": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[ancestor::*[@role='button'] and not(contains(normalize-space(.),'Apple'))]"
+  },
+  "Shop Apple 128 Product": {
+    "locatorType": "XPATH",
+    "locatorValue": "//h4[normalize-space()='Smartfon Apple iPhone 16 128GB Black']"
+  },
+  "Shop Price Range 101 500": {
+    "locatorType": "XPATH",
+    "locatorValue": "//label[normalize-space()='101 - 500 ₼']"
+  },
+  "Shop Prices Outside Range": {
+    "locatorType": "XPATH",
+    "locatorValue": "//*[@role='button'][.//h4]//p[contains(.,'₼')][number(translate(translate(translate(normalize-space(.),'₼  ',''),'.',''),',','.')) < 101 or number(translate(translate(translate(normalize-space(.),'₼  ',''),'.',''),',','.')) > 500]"
+  },
+  "Shop Load More": {
+    "locatorType": "XPATH",
+    "locatorValue": "//button[normalize-space()='Daha çox yüklə']"
+  },
+  "Shop Tenth Product": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//h4[ancestor::*[@role='button']])[10]"
+  }
+}
